@@ -1,5 +1,5 @@
 {
-  "homepage": "http://BryanAPinos.github.io/schoolchain-news",
+  "homepage": "http://bryanapinos.github.io/schoolchain-news",
   "name": "near-test",
   "version": "0.1.0",
   "scripts": {
@@ -9,8 +9,8 @@
     "build:web": "parcel build src/index.html --public-url ./",
     "dev:deploy:contract": "near dev-deploy",
     "deploy:contract": "near deploy",
-    "deploy:pages": "gh-pages -d dist/",
-    "deploy": "npm run build && npm run deploy:contract && npm run deploy:pages",
+    "deploy": "gh-pages -d build",
+    "deploy:pages": "npm run build && npm run deploy:contract && npm run deploy:pages",
     "prestart": "npm run build:contract && npm run dev:deploy:contract",
     "start": "env-cmd -f ./neardev/dev-account.env parcel src/index.html",
     "dev": "nodemon --watch assembly -e ts --exec \"npm run start\"",
