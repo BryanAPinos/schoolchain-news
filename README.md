@@ -10,6 +10,8 @@
 <br />
 <br />
 
+<p>Application Page: https://bryanapinos.github.io/schoolchain-news/</p>
+
 ## SchoolChain News
 
 This was built off of the Near Protocol [create-near-app](https://github.com/nearprotocol/create-near-app), along with [js-ipfs](https://github.com/ipfs/js-ipfs).
