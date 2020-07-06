@@ -1,7 +1,9 @@
 {
+  "homepage": "http://BryanAPinos.github.io/schoolchain-news",
   "name": "near-test",
   "version": "0.1.0",
   "scripts": {
+    "predeploy": "npm run build",
     "build": "npm run build:contract && npm run build:web",
     "build:contract": "node asconfig.js",
     "build:web": "parcel build src/index.html --public-url ./",
