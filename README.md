@@ -11,8 +11,6 @@
 <br />
 
 <p>Application Page: https://bryanapinos.github.io/schoolchain-news/</p>
-[![Open in Gitpod] (https://gitpod.io/button/open-in-gitpod.svg)] (https://gitpod.io/#https://github.com/BryanAPinos/schoolchain-news)
-
 
 ## SchoolChain News
 
